@@ -109,7 +109,7 @@ function init() {
             state = updateMarker(state);
         }
         render(state);
-        webkitRequestAnimationFrame(draw);
+        requestAnimationFrame(draw);
     }
 
     draw();
